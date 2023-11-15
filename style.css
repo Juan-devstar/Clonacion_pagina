@@ -1,0 +1,530 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: white;
+}
+
+header{
+    display: flex;
+    width: 99vw;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 140px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: fixed;
+    z-index: 3;
+    background-color: #fff;
+}
+
+#Redes{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #8A20F4;;
+}
+
+nav{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.Titulo{
+    color: #000;
+    font-family: Prociono;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    top: 214px;
+    left: 140px;
+}
+
+.Parrafo{
+    width: 350px;
+    position: relative;
+    top: 255px;
+    left: 140px;
+}
+
+#img1{
+    width: 300px;
+    position: relative;
+    left: 500px;
+}
+
+.Verde{
+    background-color: #3BAA6F;
+    width: 1350px;
+    height: 640px;
+    position: relative;
+    top: 210px;
+}
+
+.Blanco{
+    background-color: #fff;
+    height: 556px;
+    position: relative;
+    top: 40px;
+    left: 45px;
+    width: 1250px;
+}
+
+#uno{
+    position: absolute;
+    top: 208px;
+    left: 395px;
+    z-index: 2;
+}
+
+#dos{
+  position: absolute;
+  top: 15px;
+  left: 317px;
+  z-index: 1;
+}
+
+#tres{
+  position: absolute;
+  top:151px;
+  left: 86px;
+  z-index: 0;
+}
+
+#cuatro{
+  position: absolute;
+  top: 92px;
+  left: 606px;
+}
+
+.Derecha{
+  position: relative;
+  right: 190px;
+}
+
+#Gris{
+  background-color: #D9D9D9;
+  width: 273px;
+  height: 563px;
+  position: relative;
+  left: 1190px;
+  bottom: 40px;
+  z-index: 1;
+}
+
+#Circulo{
+  position: absolute;
+  top: 223.5px;
+  left: 104.5px;
+  z-index: 1;
+}
+
+#Amazon{
+  position: absolute;
+  top: 239.5px;
+  left: 122.5px;
+  z-index: 1;
+}
+
+#TextoAmazon{
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  top: 319.5px;
+  left: 103px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Azul{
+  background-color: #765CE1;
+  width: 1350px;
+  height: 640px;
+  position: relative;
+  top: 230px;
+}
+
+#Gris2{
+  background-color: #D9D9D9;
+  width: 273px;
+  height: 563px;
+  position: relative;
+  left: 10px;
+  bottom: 40px;
+}
+
+.Izquierda{
+  position: relative;
+  left: 20px;
+  bottom: 516px;
+}
+
+#Amaelip{
+  position: absolute;
+  top: 225px;
+  left: 65px;
+}
+
+#TextoAmazon1{
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  position: absolute;
+  top: 317px;
+  left: 65px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#TextoAmazon2{
+  font-family: 'Nunito Sans', sans-serif;
+  color: #000;
+  position: absolute;
+  top: 350px;
+  left: 25px;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#Comilla{
+  color: #D9D9D9;
+  position: relative;
+  bottom: 500px;
+  left: 430px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 300px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 1;
+}
+
+.Testimonio{
+  color: #000;
+  width: 500px;
+  position: absolute;
+  bottom: 600px;
+  left: 550px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#LL{
+  color: #D9D9D9;
+  position: relative;
+  bottom: 500px;
+  left: 930px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 300px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 1;
+}
+
+#Comilla1{
+  color: #D9D9D9;
+  position: relative;
+  bottom: 250px;
+  left: 790px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 300px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  z-index: 1;
+}
+
+.Rosado{
+  background-color: #DC777B;
+  width: 1350px;
+  height: 640px;
+  position: relative;
+  top: 250px;
+}
+
+.Derecha1{
+  position: relative;
+  bottom: 516px;
+  left: -144px;
+}
+
+#Medical{
+  position: absolute;
+  top: 90px;
+  left: 50px;
+}
+
+footer{
+  background-color: #ffffff;
+  position: relative;
+  top: 300px;
+  height: 500px;
+}
+
+.Negro{
+  background-color: #000;
+  height: 2px;
+  width: 1500px;
+  position: absolute;
+  bottom: 100px;
+  right: -300px;
+}
+
+br{
+  color: #000;
+}
+
+.Contacto{
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+
+.Button1{
+  position: relative;
+  top: 135px;
+  left: 190px;
+}
+
+.Contacto1{
+  position: relative;
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  top:550px;
+  left: 110px;
+}
+
+.Contacto2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 50px;
+  left: 1000px;
+}
+
+h2{
+  color: #C64CFF;
+}
+
+.ParraFoter{
+  color: #000;
+  width: 500px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ParraFoter1{
+  color: #000;
+  width: 500px;
+  position: absolute;
+  top: 200px;
+  left: -60px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ParraFoter2{
+  color: #000;
+  width: 500px;
+  position: absolute;
+  top: 40px;
+  left: -180px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.ParraFoter3{
+  color: #000;
+  width: 500px;
+  position: absolute;
+  top: 70px;
+  left: -115px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.button {
+  position: relative;
+  top: 80px;
+  left: 200px;
+  padding: 16px 30px;
+  font-size: 1.5rem;
+  color: var(--color);
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  text-shadow: 0 0 15px var(--color);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  transition: 0.5s;
+  z-index: 1;
+}
+
+.button:hover {
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0px var(--color);
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--color);
+  z-index: -1;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.button:hover::before {
+  transform: scale(1);
+  transition-delay: 0.5s;
+  box-shadow: 0 0 10px var(--color),
+    0 0 30px var(--color),
+    0 0 60px var(--color);
+}
+
+.button span {
+  position: absolute;
+  background: var(--color);
+  pointer-events: none;
+  border-radius: 2px;
+  box-shadow: 0 0 10px var(--color),
+    0 0 20px var(--color),
+    0 0 30px var(--color),
+    0 0 50px var(--color),
+    0 0 100px var(--color);
+  transition: 0.5s ease-in-out;
+  transition-delay: 0.25s;
+}
+
+.button:hover span {
+  opacity: 0;
+  transition-delay: 0s;
+}
+
+.button span:nth-child(1),
+.button span:nth-child(3) {
+  width: 40px;
+  height: 4px;
+}
+
+.button:hover span:nth-child(1),
+.button:hover span:nth-child(3) {
+  transform: translateX(0);
+}
+
+.button span:nth-child(2),
+.button span:nth-child(4) {
+  width: 4px;
+  height: 40px;
+}
+
+.button:hover span:nth-child(1),
+.button:hover span:nth-child(3) {
+  transform: translateY(0);
+}
+
+.button span:nth-child(1) {
+  top: calc(50% - 2px);
+  left: -50px;
+  transform-origin: left;
+}
+
+.button:hover span:nth-child(1) {
+  left: 50%;
+}
+
+.button span:nth-child(3) {
+  top: calc(50% - 2px);
+  right: -50px;
+  transform-origin: right;
+}
+
+.button:hover span:nth-child(3) {
+  right: 50%;
+}
+
+.button span:nth-child(2) {
+  left: calc(50% - 2px);
+  top: -50px;
+  transform-origin: top;
+}
+
+.button:hover span:nth-child(2) {
+  top: 50%;
+}
+
+.button span:nth-child(4) {
+  left: calc(50% - 2px);
+  bottom: -50px;
+  transform-origin: bottom;
+}
+
+.button:hover span:nth-child(4 ) {
+  bottom: 50%;
+}
